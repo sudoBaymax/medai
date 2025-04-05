@@ -1,8 +1,3 @@
-# medai
-Pipeline for testing medical image segmentation/annotation models in a realistic and parallel compute hospital infrastructure.
-
-# Test to see if git works on local file system
-
 # 🧠 Medical Image Segmentation Benchmarking Pipeline
 
 This repository contains the full Phase 1 pipeline for benchmarking state-of-the-art medical image segmentation models using DICOM/NIfTI data. The goal is to identify which model performs best for real-world hospital workflows, based on various medical imaging modalities (MRI, CT, Ultrasound, X-ray).
