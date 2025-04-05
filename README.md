@@ -1,6 +1,8 @@
 # 🧠 Medical Image Segmentation Benchmarking Pipeline
 
-This repository contains the full Phase 1 pipeline for benchmarking state-of-the-art medical image segmentation models using DICOM/NIfTI data. The goal is to identify which model performs best for real-world hospital workflows, based on various medical imaging modalities (MRI, CT, Ultrasound, X-ray).
+This repository contains the full Phase 1 pipeline for benchmarking state-of-the-art medical image segmentation models using DICOM/NIfTI data. The goal is to identify which model performs best for real-world hospital workflows, based on various medical imaging modalities (MRI, CT, Ultrasound, X-ray). The end-goal is to create a self-learning artificial intelligence system that can annotate patient scans, whilst creating a massive dataset of anonymized and annotated medical images to solve every medical problem known to physicians. 
+
+![Med-AI Banner](https://i.imgur.com/2sNQKP5.jpg)
 
 ---
 
