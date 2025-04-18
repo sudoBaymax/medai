@@ -1,0 +1,41 @@
+# Base configuration for all models
+data:
+  train_path: "data/processed/train"
+  val_path: "data/processed/val"
+  test_path: "data/processed/test"
+  input_size: [256, 256]
+  batch_size: 8
+  num_workers: 4
+
+training:
+  epochs: 100
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  optimizer: "adam"
+  scheduler: "cosine"
+  early_stopping_patience: 10
+
+augmentation:
+  horizontal_flip: true
+  vertical_flip: true
+  random_rotate: true
+  random_scale: true
+  random_brightness: true
+  random_contrast: true
+
+model:
+  in_channels: 1
+  num_classes: 1
+  pretrained: false
+
+logging:
+  tensorboard_dir: "tensorboard_logs"
+  save_dir: "results"
+  log_interval: 100
+  save_interval: 1
+
+metrics:
+  - "dice"
+  - "iou"
+  - "sensitivity"
+  - "specificity" 
