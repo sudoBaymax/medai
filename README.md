@@ -9,7 +9,7 @@ This repository contains the full Phase 1 pipeline for benchmarking state-of-the
 ## 📌 Project Phases
 
 ### ✅ Phase 1: Research Pipeline
-1. **Data Source**: 10,000+ anonymized DICOM/NIfTI scans
+1. **Data Source**: 10,000+ anonymized DICOM/NIfTI scans (collected from open source medical database with annotated scans)
 2. **ETL Pipeline**: Apache Airflow + SimpleITK preprocessing
 3. **Training**: 12+ segmentation models with PyTorch + MONAI
 4. **Evaluation**: Dice, IoU, Sensitivity, Specificity
