@@ -1,4 +1,4 @@
-# Project Title
+# Med-AI
 
 ## Executive Summary
 The purpose of this document is to provide a comprehensive overview of the project, detailing its objectives, scope, and benefits to stakeholders.
